@@ -1,11 +1,9 @@
 package com.andrewakosta.learningspring;
 
 import com.andrewakosta.learningspring.game.GameRunner;
-import com.andrewakosta.learningspring.game.MarioGame;
 import com.andrewakosta.learningspring.game.PacmanGame;
-import com.andrewakosta.learningspring.game.SuperContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args) {
         // var game = new MarioGame();
         // var game = new SuperContraGame();
