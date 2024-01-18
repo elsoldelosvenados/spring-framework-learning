@@ -2,9 +2,9 @@ package com.andrewakosta.learningspring.game;
 
 
 public class GameRunner {
-    SuperContraGame game;
+    GamingConsole game;
 
-    public GameRunner(SuperContraGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
