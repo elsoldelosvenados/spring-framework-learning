@@ -15,6 +15,8 @@ public class App02HelloWorldSpring {
          //Retrieve the bean from the Spring container
 
         System.out.println(context.getBean("name"));
+        System.out.println(context.getBean("age"));
+        System.out.println(context.getBean("person"));
 
     }
 }
