@@ -1,4 +1,4 @@
-#### Aprendiendo Spring Boot
+# Aprendiendo Spring Boot
 Descripción
 Este proyecto es un recurso de aprendizaje para aquellos que buscan familiarizarse con Spring Boot. Está diseñado para cubrir los conceptos fundamentales de Spring Boot y proporcionar ejemplos prácticos.
 
