@@ -1,7 +1,8 @@
-package com.andrewakosta.learningspring;
+package com.andrewakosta.learningspring.helloworld;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 
 record Person(String name, int age, Address address) {};
@@ -36,6 +37,7 @@ public class HelloWorldConfiguration {
     }
 
     @Bean
+    @Primary
     public Address address3(){
         return new Address("Baker Street", "London");
     }
